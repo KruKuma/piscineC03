@@ -6,7 +6,7 @@
 /*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 10:22:10 by nfurst            #+#    #+#             */
-/*   Updated: 2026/06/29 10:56:16 by nfurst           ###   ########.fr       */
+/*   Updated: 2026/06/29 11:12:20 by nfurst           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strcat(char *dest, char *src)
 {
 	char	*ptr;
-	
+
 	ptr = dest;
 	while (*ptr != '\0')
 	{
